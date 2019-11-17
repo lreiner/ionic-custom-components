@@ -1,6 +1,5 @@
 # Preview of this custom tabs
 
-## Example Output
 ![](example.gif)
 
 ## Donation [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/LukasReiner/) 
