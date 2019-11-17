@@ -1,0 +1,147 @@
+page-tabs {
+    .tabs .tabbar {
+        background: #121212;
+        width: 90% !important;
+        max-width: 400px !important;
+        border-radius: 30px;
+        margin: 0px 0px 20px 5% !important;
+        max-height: 56px;
+        height: 56px;
+    }
+
+    .tabs .tab-button[aria-selected="true"] .tab-button-icon {
+      color: white;
+      -webkit-transform: translate3d(0, -5px, 0);
+      transform: translate3d(0, -5px, 0);
+    }
+
+    .tabs .tab-button-icon {
+        color: #f2f2f2;
+        padding-bottom: 3px;
+    }
+
+    .tabs-md, .tabs-wp {
+        a[aria-selected=false]{
+            .tab-button-icon[ng-reflect-name=custom-profile], .tab-button-icon[aria-label=custom-profile] {
+                background-image: url(../assets/imgs/profilepicture.jpg);
+            }
+        }
+
+        a[aria-selected=true] {
+            .tab-button-icon[ng-reflect-name=custom-profile], .tab-button-icon[aria-label=custom-profile] {
+                background-image: url(../assets/imgs/profilepicture.jpg);
+            }
+        }
+    }
+
+    .tabs-ios {
+        a[aria-selected=false]{
+            .tab-button-icon[ng-reflect-name=custom-profile], .tab-button-icon[aria-label="custom-profile outline"] {
+                background-image: url(../assets/imgs/profilepicture.jpg);
+            }
+        }
+
+        a[aria-selected=true] {
+            .tab-button-icon[ng-reflect-name=custom-profile], .tab-button-icon[aria-label=custom-profile] {
+                background-image: url(../assets/imgs/profilepicture.jpg);
+            }
+        }
+    }
+
+    #tab-t0-0:after,
+    #tab-t0-1:after,
+    #tab-t0-3:after,
+    #tab-t0-4:after {
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 7px;
+      position: absolute;
+      transition: width 0.4s ease 0s, background-color .4s ease;
+      width: 0;
+      margin-bottom: 12px;
+      border-radius: 5px;
+    }
+
+    #tab-t0-0[aria-selected=true]:after,
+    #tab-t0-1[aria-selected=true]:after,
+    #tab-t0-3[aria-selected=true]:after,
+    #tab-t0-4[aria-selected=true]:after {
+      width: 24px;
+      background: purple;
+    }
+
+    #tab-t0-0,
+    #tab-t0-1,
+    #tab-t0-2,
+    #tab-t0-3,
+    #tab-t0-4 {
+        background: #23272a;
+        -webkit-box-shadow: 5px 5px 15px -15px  rgba(0,0,0,0.4);
+        -moz-box-shadow: 5px 5px 15px -15px  rgba(0,0,0,0.4);
+        box-shadow: 5px 5px 15px -15px  rgba(0,0,0,0.4);
+    }
+
+    #tab-t0-0 {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    #tab-t0-1 {
+      border-top-right-radius: 15px;
+    }
+
+    #tab-t0-3 {
+      border-top-left-radius: 15px;
+    }
+
+    #tab-t0-2 {
+        overflow: visible !important;
+
+        ion-icon {
+            -webkit-transform: translate3d(0, 0px, 0);
+            transform: translate3d(0, 0px, 0);
+            background: purple;
+            padding: 16px !important;
+            border-radius: 50% !important;
+            width: 60px !important;
+            height: 60px !important;
+            margin-top: -50px !important;
+            box-shadow: 0 0 0 11px #121212;
+        }
+    }
+
+    #tab-t0-4 {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+        .tab-button-icon {
+            background-repeat:no-repeat;
+            background-position:center;
+            height:24px;
+            width:24px;
+            background-size:contain;
+            border-radius: 50%;
+            -webkit-background-size: contain;
+            -moz-background-size: contain;
+            -o-background-size: contain;
+            &:before {
+                display:none;
+            }
+        }
+    }
+
+    .badge {
+        background-color: purple;
+    }
+
+    .footer::before, .tabs[tabsPlacement="bottom"] > .tabbar::before {
+        height: 0px !important;
+    }
+
+    .ion-md-add::before {
+      content: "\f273";
+      margin-top: 1px;
+    }
+}
