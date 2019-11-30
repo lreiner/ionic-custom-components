@@ -10,7 +10,7 @@ Spend less time on design and more time on your code quality. Here are my custom
 ## Donation [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/LukasReiner/) 
 If this project help you reduce time to develop, you can give me a cup of coffee (or a Beer of course) :)
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](paypal.me/lreiner97) 
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/lreiner97) 
 
 ## Git - Fork
 
