@@ -1,7 +1,7 @@
 # Preview of this custom tabs
 You can find the Documentation on how to implement them or modify them here:
 
-[Ionic 3 — Create beautiful custom Tabs | Medium Tutorial](https://medium.com/@lreiner/ionic-3-create-beautiful-custom-tabs-44006103afb7)
+[Ionic 4,5 — Create beautiful custom Tabs | Ionic Tutorial](https://forum.ionicframework.com/t/ionic-tutorial-beautiful-custom-tabs-with-custom-icons/)
 
 ![](example.gif)
 
